@@ -71,9 +71,7 @@ class Ui_MainWindow(object):
                 self.lineEdit.setText("basek3124")
                 return ":)"
 
-            if self.lineEdit.text() == "пидор":
-                self.lineEdit.setText("Жопа(жора)")
-                return ":)"
+            
 
             ansp = str(self.lineEdit.text())
             ans = str(eval(ansp))
